@@ -42,8 +42,8 @@ class BERT(nn.Module):
 class Roberta(nn.Module):
     def __init__(self, name, outdim, freeze=False) -> None:
         super().__init__()
-        self.body = RobertaModel.from_pretrained(name, local_files_only=True)
-        self.tokenizer = RobertaTokenizerFast.from_pretrained(name, local_files_only=True)
+        self.body = RobertaModel.from_pretrained(name)
+        self.tokenizer = RobertaTokenizerFast.from_pretrained(name)
 
         if freeze:
             for p in self.body.parameters():

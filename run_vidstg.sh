@@ -6,8 +6,8 @@ python3 -m torch.distributed.launch \
  scripts/train_net.py \
  --config-file "experiments/VidSTG/e2e_STCAT_R101_VidSTG.yaml" \
  --use-seed \
- OUTPUT_DIR /home/tiger/data/vidstg/checkpoints/output \
- TENSORBOARD_DIR /home/tiger/data/vidstg/checkpoints/output/tensorboard \
+ OUTPUT_DIR data/vidstg/checkpoints/output \
+ TENSORBOARD_DIR data/vidstg/checkpoints/output/tensorboard \
  INPUT.RESOLUTION 448
 
 # Run for Testing
@@ -16,6 +16,6 @@ python3 -m torch.distributed.launch \
 # scripts/test_net.py \
 # --config-file "experiments/VidSTG/e2e_STCAT_R101_VidSTG.yaml" \
 # --use-seed \
-# MODEL.WEIGHT /home/tiger/data/vidstg/checkpoints/stcat_res448/model_022500.pth \
-# OUTPUT_DIR /home/tiger/data/vidstg/checkpoints/output \
-# INPUT.RESOLUTION 320
+# MODEL.WEIGHT data/vidstg/checkpoints/stcat_res448/vidstg_res448.pth \
+# OUTPUT_DIR data/vidstg/checkpoints/output \
+# INPUT.RESOLUTION 448

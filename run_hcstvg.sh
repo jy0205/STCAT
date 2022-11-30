@@ -6,8 +6,8 @@ python3 -m torch.distributed.launch \
  scripts/train_net.py \
  --config-file "experiments/HC-STVG/e2e_STCAT_R101_HCSTVG.yaml" \
  --use-seed \
- OUTPUT_DIR /home/tiger/data/hc-stvg/checkpoints/output \
- TENSORBOARD_DIR /home/tiger/data/hc-stvg/checkpoints/output/tensorboard \
+ OUTPUT_DIR data/hc-stvg/checkpoints/output \
+ TENSORBOARD_DIR data/hc-stvg/checkpoints/output/tensorboard \
  INPUT.RESOLUTION 448
 
 # Run for Testing
@@ -16,6 +16,6 @@ python3 -m torch.distributed.launch \
 # scripts/test_net.py \
 # --config-file "experiments/HC-STVG/e2e_STCAT_R101_HCSTVG.yaml" \
 # --use-seed \
-# MODEL.WEIGHT /home/tiger/data/hc-stvg/checkpoints/stcat_res448/model_012500.pth \
-# OUTPUT_DIR /home/tiger/data/hc-stvg/checkpoints/output \
+# MODEL.WEIGHT data/hc-stvg/checkpoints/stcat_res448/hcstvg_res448.pth \
+# OUTPUT_DIR data/hc-stvg/checkpoints/output \
 # INPUT.RESOLUTION 448

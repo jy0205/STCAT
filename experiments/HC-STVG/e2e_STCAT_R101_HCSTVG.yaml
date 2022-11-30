@@ -1,6 +1,6 @@
-OUTPUT_DIR: /home/tiger/data/hc-stvg/checkpoints/stcat_res448
-DATA_DIR: /home/tiger/data/hc-stvg
-TENSORBOARD_DIR: /home/tiger/data/hc-stvg/checkpoints/stcat_res448/tensorboard
+OUTPUT_DIR: data/hc-stvg/checkpoints/stcat_res448
+DATA_DIR: data/hc-stvg
+TENSORBOARD_DIR: data/hc-stvg/checkpoints/stcat_res448/tensorboard
 
 INPUT:
   RESOLUTION: 448
@@ -9,7 +9,7 @@ INPUT:
   SAMPLE_FPS: 3.2
 
 MODEL:
-  WEIGHT: /home/tiger/data/pretrained/pretrained_resnet101_checkpoint.pth
+  WEIGHT: data/pretrained/pretrained_resnet101_checkpoint.pth
   VISION_BACKBONE:
     NAME: resnet101
     POS_ENC: sine

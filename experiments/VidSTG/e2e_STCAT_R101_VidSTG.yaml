@@ -1,6 +1,6 @@
-OUTPUT_DIR: /home/tiger/data/vidstg/checkpoints/stcat_res448
-DATA_DIR: /home/tiger/data/vidstg
-TENSORBOARD_DIR: /home/tiger/data/vidstg/checkpoints/stcat_res448/tensorboard
+OUTPUT_DIR: data/vidstg/checkpoints/stcat_res448
+DATA_DIR: data/vidstg
+TENSORBOARD_DIR: data/vidstg/checkpoints/stcat_res448/tensorboard
 
 INPUT:
   RESOLUTION: 448
@@ -9,7 +9,7 @@ INPUT:
   TRAIN_SAMPLE_NUM: 64
 
 MODEL:
-  WEIGHT: /home/tiger/data/pretrained/pretrained_resnet101_checkpoint.pth
+  WEIGHT: data/pretrained/pretrained_resnet101_checkpoint.pth
   VISION_BACKBONE:
     NAME: resnet101
     POS_ENC: sine
