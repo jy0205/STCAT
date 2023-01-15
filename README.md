@@ -43,7 +43,7 @@ You can prepare this structure with the following steps:
 **VidSTG**
 * Download the video for VidSTG from the [VidOR](https://xdshang.github.io/docs/vidor.html) and put it into `data/vidstg/videos`. The original video download url given by the VidOR dataset provider is broken. You can download the VidSTG videos from [this](https://disk.pku.edu.cn:443/link/5AB0927F723BB3BF80FC6DCABADAF364).
 * Download the text and temporal annotations from [VidSTG Repo](https://github.com/Guaranteer/VidSTG-Dataset) and put it into `data/vidstg/sent_annos`.
-* Download the bounding-box annotations from [here](https://disk.pku.edu.cn:443/link/02597D656A6339655F8E079237EA168E) and put it into `data/vidstg/vstg_annos`.
+* Download the bounding-box annotations from [here](https://disk.pku.edu.cn:443/link/50AA3A33DDE632F32DFD402CEAF80A2B) and put it into `data/vidstg/vstg_annos`.
 * For the loading efficiency, we provide the dataset cache for VidSTG at [here](https://disk.pku.edu.cn:443/link/0154DA82CF05E4E5F7F28C4B04535336). You can download it and put it into `data/vidstg/data_cache`. 
 
 **HC-STVG**
