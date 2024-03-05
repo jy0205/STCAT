@@ -41,14 +41,14 @@ data
 You can prepare this structure with the following steps:
 
 **VidSTG**
-* Download the video for VidSTG from the [VidOR](https://xdshang.github.io/docs/vidor.html) and put it into `data/vidstg/videos`. The original video download url given by the VidOR dataset provider is broken. You can download the VidSTG videos from [this](https://disk.pku.edu.cn:443/link/5AB0927F723BB3BF80FC6DCABADAF364).
+* Download the video for VidSTG from the [VidOR](https://xdshang.github.io/docs/vidor.html) and put it into `data/vidstg/videos`. The original video download url given by the VidOR dataset provider is broken. You can download the VidSTG videos from [this](https://disk.pku.edu.cn/link/AA93DEAF3BBC694E52ACC5A23A9DC3D03B).
 * Download the text and temporal annotations from [VidSTG Repo](https://github.com/Guaranteer/VidSTG-Dataset) and put it into `data/vidstg/sent_annos`.
-* Download the bounding-box annotations from [here](https://disk.pku.edu.cn:443/link/50AA3A33DDE632F32DFD402CEAF80A2B) and put it into `data/vidstg/vstg_annos`.
-* For the loading efficiency, we provide the dataset cache for VidSTG at [here](https://disk.pku.edu.cn:443/link/0154DA82CF05E4E5F7F28C4B04535336). You can download it and put it into `data/vidstg/data_cache`. 
+* Download the bounding-box annotations from [here](https://disk.pku.edu.cn/link/AA9BD598C845DC43A4B6A0D35268724E4B) and put it into `data/vidstg/vstg_annos`.
+* For the loading efficiency, we provide the dataset cache for VidSTG at [here](https://disk.pku.edu.cn/link/AAA0FA082DEB3D47FCA92F3BF8775EA3BC). You can download it and put it into `data/vidstg/data_cache`. 
 
 **HC-STVG**
 * Download the version 1 of HC-STVG videos and annotations from [HC-STVG](https://github.com/tzhhhh123/HC-STVG). Then put it into `data/hc-stvg/v1_video` and `data/hc-stvg/annos/hcstvg_v1`.
-* For the loading efficiency, we provide the dataset cache for HC-STVG at [here](https://disk.pku.edu.cn:443/link/43CB8050F940F3F5A8DE811192FB46E1). You can download it and put it into `data/hc-stvg/data_cache`. 
+* For the loading efficiency, we provide the dataset cache for HC-STVG at [here](https://disk.pku.edu.cn/link/AA66258EA52A1E435B815C4BC10E88925D). You can download it and put it into `data/hc-stvg/data_cache`. 
 
 ## Setup
 
@@ -126,13 +126,13 @@ We provide our trained checkpoints with ResNet-101 backbone for results reproduc
 
 | Dataset | resolution | url | Declarative (m_vIoU/vIoU@0.3/vIoU@0.5) | Interrogative (m_vIoU/vIoU@0.3/vIoU@0.5) | size |
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| VidSTG | 416 | [Model](https://disk.pku.edu.cn:443/link/F32E92C8BA1D6EF07B574B1372DBE9DB)  | 32.94/46.07/32.32 | 27.87/38.89/26.07 | 3.1GB |
-| VidSTG | 448 | [Model](https://disk.pku.edu.cn:443/link/803E7ED062F91C076949A36B390BC93D)  | 33.14/46.20/32.58 | 28.22/39.24/26.63 | 3.1GB |
+| VidSTG | 416 | [Model](https://disk.pku.edu.cn/link/AA2C0A9412722B47FBA3C67FE3314FEAA4)  | 32.94/46.07/32.32 | 27.87/38.89/26.07 | 3.1GB |
+| VidSTG | 448 | [Model](https://disk.pku.edu.cn/link/AA1337478438D4457DAD8FEF817234A04E)  | 33.14/46.20/32.58 | 28.22/39.24/26.63 | 3.1GB |
 
 | Dataset | resolution | url | m_vIoU/vIoU@0.3/vIoU@0.5 | size |
 |:----:|:-----:|:-----:|:-----:|:-----:|
-| HC-STVG | 416 | [Model](https://disk.pku.edu.cn:443/link/8F632C6ABADC5937E0AEE39190C8F5FA)  | 34.93/56.64/31.03 |3.1GB |
-|  HC-STVG | 448 | [Model](https://disk.pku.edu.cn:443/link/3612D44D84EE11FC350D057E529F64C8)  | 35.09/57.67/30.09 |3.1GB |
+| HC-STVG | 416 | [Model](https://disk.pku.edu.cn/link/AAE483531815CE4F2484BB5B0A68ED060C)  | 34.93/56.64/31.03 |3.1GB |
+|  HC-STVG | 448 | [Model](https://disk.pku.edu.cn/link/AA51A4119F8AA843BEB2B7EC03FEFA82A5)  | 35.09/57.67/30.09 |3.1GB |
 
 
 ## Acknowledgement
