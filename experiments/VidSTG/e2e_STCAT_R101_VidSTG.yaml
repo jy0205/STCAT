@@ -7,6 +7,7 @@ INPUT:
   FLIP_PROB_TRAIN: 0.5
   TEMP_CROP_PROB: 0.5
   TRAIN_SAMPLE_NUM: 64
+  MAX_VIDEO_LEN: 300
 
 MODEL:
   WEIGHT: data/pretrained/pretrained_resnet101_checkpoint.pth
